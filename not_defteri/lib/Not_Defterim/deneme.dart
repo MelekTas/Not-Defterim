@@ -12,12 +12,12 @@ class Deneme extends StatelessWidget {
     return MaterialApp(
       title: 'Not Defterim',
       theme: ThemeData(
-        primaryColor: Colors.purple[200], // Ana ekranın arka plan rengi lila
+        primaryColor: Colors.purple[200], 
         primaryTextTheme: const TextTheme(
           titleLarge: TextStyle(color:  Color.fromARGB(255, 74, 17, 36), fontSize: 24, fontWeight: FontWeight.bold), // Yazı rengi pembe, büyük ve kalın
         ),
       ),
-      home: const WelcomeScreen(), // Başlangıç ekranı Hoşgeldiniz ekranı olacak
+      home: const WelcomeScreen(), 
     );
   }
 }
